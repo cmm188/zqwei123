@@ -6,7 +6,7 @@ name: 中青自动阅读
 on:
   workflow_dispatch:
   schedule:
-     - cron: '6 1-12/2 * * *'
+     - cron: '6 1-22/2 * * *'
   watch:
     types: started
 jobs:
@@ -19,7 +19,8 @@ jobs:
       YOUTH_READ3: ${{ secrets.YOUTH_READ3 }}
       YOUTH_READ4: ${{ secrets.YOUTH_READ4 }}
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v1
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
