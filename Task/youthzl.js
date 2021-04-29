@@ -19,7 +19,7 @@ const axios = require('axios');
       
         var j = randomString();
     
-    const url = 'https://script.baertt.com/count2/callback?si='+j+'&eba94ef30892f6d533f1632ae3f58021&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DQqvZWbEKpA2yrNR1M0OrDvip63P3fLgYNkPa9VGjJl8gXB5keP%2526uid%253D48939418%2526phone_code%253Df366260adcd3a6e11e53babb137a325c%2526scid%253D37881303%2526time%253D1619663369%2526app_version%253D1.8.0%2526sign%253Dddc80c3435e0b72c062be87c376f8728&_=1619663460045&jsonpcallback=jsonp6';
+    const url = 'https://script.baertt.com/count2/callback?si='+j+'&a77d5a2f36f5c566ab6390c75af8bc54&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253D2E96MJNGrnvW8pX1dEj26jcwQx8MueBJOjp45okQ0dyYRDBzxL%2526uid%253D47917487%2526phone_code%253Df366260adcd3a6e11e53babb137a325c%2526scid%253D37879296%2526time%253D1619595383%2526app_version%253D1.8.0%2526sign%253D59af071497658fb93a31f27c8d694b18&_=1619595574504&jsonpcallback=jsonp6';
     
     
     
