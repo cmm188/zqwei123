@@ -23,41 +23,4 @@ const axios = require('axios');
       
         var j = randomString();
  var p = new Date().getTime();
-    const url = 'https://script.baertt.com/count2/callback?si='+j+'&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DyjOAEqLWPoZQngMaDMy0KGHmwNJNh0eR3gX1K5N3rYk6pmxVGl%2526uid%253D48939418%2526phone_code%253Df366260adcd3a6e11e53babb137a325c%2526scid%253D38074139%2526time%253D'+q+'%2526app_version%253D1.8.0%2526sign%253D218683749abbc5e91ca7eb962aef2fb5&_='+p+'&jsonpcallback=jsonp6';
-    
-    return axios.get(url, {
-    
-      headers: {'Referer' : 'https://focus.youth.cn/',
-    'Host' : 'script.baertt.com',
-    'User-Agent' : 'Mozilla/5.0 (iPad; CPU OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.5(0x18000522) NetType/WIFI Language/zh_CN'} //设置header信息
-    }).then((res) => { 
-      //then 成功
-      console.log(j);
-       console.log(p);
-    }).catch((err) => {
-      //catch 失败
-      console.log("失败")
-      
-    
-    });
-  }
-
-
-
-
-const sleep = function (ms){
-  return new Promise(resolve => setTimeout(resolve, ms))
-  
-}
-const request = async function(){
-  for(let i=0;i<50;i++){
-    aa();
-    var num=Math.ceil(Math.random() * 25);
-    await sleep(num*500);
-  }
-}
-
-
-
-
-request();
+    const url = 'https://script.baertt.com/count2/callback?si='+j+'&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DgDKBr63RYWdkby97bMvqVxteoGEGfJOVnXG4LwQPGzxp0AvZME%2526uid%253D48939418%2526phone_code%253Df366260adcd3a6e11e53babb137a325c%2526scid%253D38224921%2526time%253D'+q+'%2526app_version%253D1.8.0%2526sign%253Df81e2fc5b161d522c31a44a177a2276f&_='+p+'&jsonpcallback=jsonp6';
